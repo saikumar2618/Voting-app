@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Admin Page</title>
+</head>
+<body>
+	
+	<p>Below are the count of votes for each candidate</p>
+	<form action="/invalidate/session" method="post">
+		<label for="candidate1">Candidate 1 : <span th:text="${candidate1}"></span> </label><br>
+		<label for="candidate2">Candidate 2 : <span th:text="${candidate2}"></span> </label><br>
+		<label for="candidate3">Candidate 3 : <span th:text="${candidate3}"></span> </label><br>
+		<label for="candidate4">Candidate 4 : <span th:text="${candidate4}"></span> </label><br>
+		<input type = "submit" value="Logout">
+	</form>
+	
+</body>
+</html>

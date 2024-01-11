@@ -1,0 +1,18 @@
+.container{
+	padding-left: 50px;
+	padding-top: 50px;
+	
+}
+.login-submit{
+	position: absolute;
+	top: 154px;
+}
+.login-register{
+	position: absolute;
+	left: 150px;
+}
+.register-back{
+	position: absolute;
+	left: 150px;
+	top: 234px;
+}

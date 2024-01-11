@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Login page</title>
+	<link rel="stylesheet" href="" th:href="@{/css/mystyle.css}" />
+</head>
+<body>
+	<div class="container">
+	<form action="user" id="myform" onsubmit="myfn()" method="post">
+	<label for="username">USERNAME</label><br>
+	<input type="text" id="username" name="user" placeholder="Enter username" required/><br>
+	<label for="password">PASSWORD</label><br>
+	<input type="password" id="password" name="pass" placeholder="Enter password" required/><br>
+	
+	<input class="login-submit" type = "submit" value="Login" /><br>
+	</form>
+	
+	<form action="register" method="get">
+	<input class="login-register" type = "submit" value="Register"/>
+	<script src="" th:src="@{/js/myjs.js}"></script>
+	</form>
+	</div>
+	
+</body>
+</html>

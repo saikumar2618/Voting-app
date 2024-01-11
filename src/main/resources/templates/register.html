@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Register page</title>
+	<link rel="stylesheet" href="" th:href="@{/css/mystyle.css}" />
+</head>
+<body>
+	<div class="container">
+	<form action="loginpage" method="post">
+	<label for="username">USERNAME</label><br>
+	<input type="text" id="username"  name="user" required/><br>
+	<label for="password">PASSWORD</label><br>
+	<input type="password" id="password"  name="pass" required/><br>
+	<label for="email">EMAIL</label><br>
+	<input type="text" id="email"  name="mail" required/><br>
+	<label for="phone">PHONE NUMBER</label><br>
+	<input type="text" id="phone"  name="phone_no" required/><br><br>
+	
+	<input class="register-submit" type = "submit" value="Submit" /><br>
+	</form>
+	
+	<form class="register-back" action="loginpage" method="get">
+	<input type = "submit" value="Back" />
+	</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<h3>Welcome <span th:text="${name}"></span></h3>
+	<p><b>You have voted "<i><span th:text="${voted}"></span></i>" successfully. Thanks !!</b></p>
+	<p><b>You can exit the page</b></p>
+	<form action="/invalidate/session" method="post">
+	<input type="submit" value = "Logout"/>
+	</form>
+</body>
+</html>	

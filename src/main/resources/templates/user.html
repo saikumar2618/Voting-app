@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>User Page</title>
+</head>
+<body>
+	<div class="container">
+	<h3>Welcome <span th:text="${name}"></span></h3>
+	<form action="/updateUser" method="post">
+	<p>Please vote among below candidates :</p>
+	<input type ="radio" name="candidate" value = "candidate1" required/>
+	<label for="candidate1">CANDIDATE 1</label><br>
+	<input type ="radio" name="candidate" value = "candidate2" required/>
+	<label for="candidate2">CANDIDATE 2</label><br>
+	<input type ="radio" name="candidate" value = "candidate3" required/>
+	<label for="candidate3">CANDIDATE 3</label><br>
+	<input type ="radio" name="candidate" value = "candidate4" required/>
+	<label for="candidate4">CANDIDATE 4</label><br>
+		
+	<input type = "submit" value="Submit & Logout">
+	</form>
+	</div>
+</body>
+</html>
