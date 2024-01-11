@@ -1,10 +1,10 @@
-package com.jforce.votingapp;
+package com.voting.votingapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JForceTaskApplicationTests {
+class VotingAppTest {
 
 	@Test
 	void contextLoads() {
